@@ -1,0 +1,46 @@
+.sidnav{
+  background-color: #F8F9FA;
+  padding-top: 40px;
+  h3{
+    font-size: $font-m;
+  }
+  .side{
+    li{
+      padding-left: 32px;
+      border-left: 4px solid transparent;
+      margin-bottom: 29px;
+    }
+    li:hover{
+      border-left: 4px solid $text-primary;
+    }
+    li:hover, a:hover{
+      color: $text-primary;
+    }
+  } 
+}
+
+.logo{
+  background: url('https://raw.githubusercontent.com/hexschool/2022-web-layout-training/9f843c654f4bbfb95e6ab2eaf0c5a42f2c3c6205/week5/logo-ANSWER.svg') no-repeat center center / cover;
+  max-width: 151px;
+  height: 40px;
+  margin: 0 0 42px 32px;
+}
+
+.head{
+  background: url('https://github.com/hexschool/2022-web-layout-training/blob/main/week5/andychen.jpeg?raw=true') no-repeat center center / cover;
+  border-radius: 24px;
+  width: 40px;
+  height: 40px;
+  margin-left: 32px;
+}
+
+.head-text{
+  margin: 314px 80px 32px 0;
+  p{
+    font-weight: bold;
+  }
+  span{
+    font-size: $font-s;
+    color: #6C757D;
+  }
+}

@@ -1,0 +1,58 @@
+@import './variable';
+
+
+body{
+  font-family: "Lato", sans-serif;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  color: $text-dark;
+}
+
+*,*::before,*::after { 
+  box-sizing: border-box; 
+} 
+
+img{
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+a{
+  text-decoration: none;
+  color: $text-dark;
+}
+
+ul, li{
+  padding: 0;
+  margin: 0;
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+  list-style: none;
+	vertical-align: baseline;
+}
+
+h6{
+  margin: 0;
+}
+
+p{
+  margin: 0;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 36
+}
+
+.icon{
+  padding-left: 9px;
+  color: $text-primary;
+  p{
+    padding-left: 27px;
+  }
+}

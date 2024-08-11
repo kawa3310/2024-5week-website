@@ -1,0 +1,28 @@
+.text-code{
+  font-weight: bold;
+  span{
+    font-size: 24px;
+  }
+}
+
+.text-icon{
+  span{
+    padding-left: 24px;
+    margin: 0;
+  }
+  a{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+}
+
+.message{
+  color: #CED4DA;
+  margin-bottom: 169px;
+}
+
+input{
+  border: 0px;
+  margin-bottom: 169px;
+}

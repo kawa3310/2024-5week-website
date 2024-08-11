@@ -1,0 +1,58 @@
+.card{
+  border-radius: 2px;
+  span{
+    font-size: $font-sm;
+    margin-bottom: 4px;
+  }
+}
+
+.card-body{
+  .star{
+    font-variation-settings:
+    'FILL' 0,
+  }
+}
+
+.content-head{
+  width: 40px;
+  height: 40px;
+  border-radius: 24px;
+}
+
+.content-text{
+  span{
+    color: $text-gray;
+  }
+}
+
+.text{
+  span{
+    font-size: $font-s;
+    color: $text-primary;
+    background-color: #F8F9FA;
+    margin-bottom: 0px;
+  }
+  p{
+    color: $text-dark;
+    font-size: $font-s;
+  }
+}
+
+.download{
+  border: 1px solid #CED4DA;
+  background-color: #F8F9FA;
+  border-radius: 2px;
+  font-weight: bold;
+  span{
+    font-size: 24px;
+    color: $text-dark;
+  }
+}
+
+.push-button{
+  border-radius: 2px;
+}
+
+.pages{
+  margin-top: 16px;
+}
